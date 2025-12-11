@@ -16,7 +16,6 @@ Half Adder
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
-<img width="453" height="233" alt="image" src="https://github.com/user-attachments/assets/6c26850f-b37f-49ae-906e-d2eeb285795b" />
 
 
 Figure -01 HALF ADDER
@@ -26,18 +25,6 @@ Half Subtractor
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed.
 
 Diff = A’B+AB’ =A ⊕ B Borrow = A’B
-<img width="526" height="298" alt="image" src="https://github.com/user-attachments/assets/9dec0bf9-d03c-4047-9347-80981344c1c9" />
-
-
-Figure -02 HALF Subtractor
-
-Truthtable
-
-HALF ADDER
-<img width="599" height="332" alt="image" src="https://github.com/user-attachments/assets/18306c5f-5e4e-49ae-a2aa-e8c079800612" />
-
-HALF SUBTRACTOR
-<img width="590" height="328" alt="image" src="https://github.com/user-attachments/assets/2bdeae50-17e9-4e54-87f4-02812e9b29d7" />
 
 Procedure
 
